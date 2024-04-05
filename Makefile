@@ -1,6 +1,8 @@
 start:
 	FLASK_APP=todolist flask run --reload
 
+start-windows:
+	start.bat
 deps:
 	pip install -r todolist/requirements.txt
 
